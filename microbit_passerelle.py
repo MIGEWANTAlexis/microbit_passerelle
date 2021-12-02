@@ -1,11 +1,11 @@
 from microbit import *
 import radio
-import tp3
+import protocol
 
 '''
- * variables for script
+ * variable for script
 '''
-radioProtocol = tp3.RadioProtocol(1)
+radioProtocol = protocol.RadioProtocol(1)
 
 '''
  * init comm
