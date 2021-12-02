@@ -43,7 +43,7 @@ radio.on()
 
 ```python
 '''
- * main programme
+ * main program
 '''
 while True:
 	message = radioProtocol.receivePacket(radio.receive_bytes())  # data from another microbit by radio frequency through the network protocol

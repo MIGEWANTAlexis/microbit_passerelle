@@ -15,7 +15,7 @@ radio.config(group = 2)
 radio.on()
 
 '''
- * main programme
+ * main program
 '''
 while True:
     message = radioProtocol.receivePacket(radio.receive_bytes())    # data from another microbit by radio frequency through the network protocol
