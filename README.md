@@ -81,7 +81,7 @@ Le but de ce programme est :
         	radioProtocol.sendPacket(str(msgUartStr), 2)         
         ```
         
-        → envoyé la configuration via radiofréquence grâce au protocole réseau au deuxième microcontrôleur pour lui indiquer **`l'ordre d'affichage`**
+        → envoyer la configuration via radiofréquence grâce au protocole réseau au deuxième microcontrôleur pour lui indiquer **`l'ordre d'affichage`**
         
     - Données issues des **`capteurs`** (celles reçues par radiofréquence)
         
@@ -90,4 +90,4 @@ Le but de ce programme est :
         	print(message)
         ```
         
-        → envoyées la **`luminosité et la température`** via serial dans le serveur
+        → envoyer la **`luminosité et la température`** via serial dans le serveur
