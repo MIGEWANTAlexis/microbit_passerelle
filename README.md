@@ -18,12 +18,12 @@ Le code est fonctionnel et commenté. Il permet à un microcontrôleur de commun
 '''
  * variables for script
 '''
-radioProtocol = tp3.RadioProtocol(1)
+radioProtocol = protocol.RadioProtocol(1)
 ```
 
-- `radioProtocol = tp3.RadioProtocol(1)` → Initialisation du protocole réseau pour la communication entre les deux microcontrôleurs
+- `radioProtocol = protocol.RadioProtocol(1)` → Initialisation du protocole réseau pour la communication entre les deux microcontrôleurs
 
-*Note : tp3 correspond au script python pour notre protocole réseau*
+*Note : protocol correspond au script python pour notre protocole réseau*
 
 ### Initialisation
 
